@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+    <head>
+         <!-- O que essa parte faz? -->
+          <!-- Resposta: esta metatag indica aos navegadores 
+           como devem renderizar o texto de uma página web, 
+           nesse caso o site a ser exibido terá permissão 
+           de utilização de caracteres especiais -->
+        <meta charset="UTF-8">
+        
+        <!-- O que essa parte faz? -->
+         <!-- Resposta: É uma tag que indica ao navegador qual será 
+          a largura da página, bem como o tamanho do zoom inicial-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+       <!-- O que essa parte faz? -->
+        <!-- A tag "title" diz ao navegador qual será o titulo da página -->
+        <title>Alessandra Nascimento Santos Sena</title>
+        
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-size: cover;
+                background-position: center;
+                background-repeat: repeat;
+            }
+
+            #estrelinhas-gif {
+                    position: absolute;
+                    top: 600px; 
+                    left: 1050px;
+                    z-index: 10; 
+                }
+        </style>
+
+        <!-- O que essa parte faz? -->
+         <!-- referencia um script externo executável que será 
+          utilizado junto a esse código html, nesse caso sendo 
+          o arquivo da aplicação Phaser-->       
+        <script src="phaser.js"></script>
+
+        </head>
+
+        <body>
+
+            <!-- O que essa parte faz? -->
+             <!-- Referencia um script externo executável que será
+               utilizado junto a esse script html, nesse caso sendo 
+               o arquivo javascript -->
+            <script src="peixe.js"></script>
+            <img id="estrelinhas-gif" src="assets/estrelinhas.gif" alt="estrelinhas gif" width="113" height="56">
+            
+            <script>
+                var resposta = "Sim, eu já havia progamado antes. Vim de um IF, então fiz um ensino médio integrado ao curso técnico e o de minha escolha foi Técnico em Informática. Por coincidência, o curso era voltado para desenvolvimento de software. Tenho um pouco de experiência em Java, C#, MySQL, HTML e CSS.";
+
+                console.log(resposta);
+            </script>
+            
+        </body>
+        </html>
